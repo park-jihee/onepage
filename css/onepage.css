@@ -1,0 +1,52 @@
+
+*{margin: 0;padding: 0;}
+
+html,body,.wrap{height: 100%;}
+	.nav{position: fixed;top:50%;left:0;margin-top: -120px;	z-index:999}
+	.nav li a{display: block;
+	width: 200px;height: 60px;
+	font-size:16px;text-align:right;
+	color:#fff;
+	font-family: 'Righteous', cursive;
+	padding-top:10px;
+	transition:.5s;
+	border-top:1px solid #fff;
+}		
+section{
+	position: relative;width: 100%;height: 100%;
+	background-size:cover;
+	background-position:right center;
+	overflow:hidden
+}
+section:nth-child(1){background-image: url(../img/cooper.jpg);}
+section:nth-child(2){background-image: url(../img/tesla.jpg);}
+section:nth-child(3){background-image: url(../img/lamborghini.jpg);}
+section:nth-child(4){background-image: url(../img/porsche.jpg);}
+
+section article{
+	position: absolute;
+	left: 20%;
+	top: 30%;
+	width: 400px;
+	line-height: 1.5;
+}
+section article h3{
+    font-size:30px;
+	font-family: 'Righteous', cursive;
+	color:#fff;
+	margin-bottom: 20px;
+}
+section article p{color:#fff;font-size:16px}		
+section img{position: absolute;}
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
